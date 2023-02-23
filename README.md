@@ -12,6 +12,10 @@
   - shouldComponentUpdate에 대해 설명해주세요.
   - Pure component에 대해 설명해주세요.
   - 왜 state를 직접 바꾸지 않고 useState()를 사용해야 하나요?
+- [함수형 컴포넌트의 생명주기](./React/함수형-컴포넌트-생명주기.md)
+  - 클래스형 컴포넌트와 함수형 컴포넌트의 차이에 대해 설명해주세요.
+  - 함수형 컴포넌트의 생명주기
+  - useEffect()와 useLayoutEffect()의 차이점에 대해 말씀해주세요.
 
 ## 참조
 
