@@ -10,6 +10,8 @@
 - [컴포넌트의 생명주기](./React/컴포넌트-생명주기.md)
   - 생명주기 메서드에 대해 설명해주세요.
   - shouldComponentUpdate에 대해 설명해주세요.
+  - Pure component에 대해 설명해주세요.
+  - 왜 state를 직접 바꾸지 않고 useState()를 사용해야 하나요?
 
 ## 참조
 
