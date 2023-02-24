@@ -16,6 +16,9 @@
   - 클래스형 컴포넌트와 함수형 컴포넌트의 차이에 대해 설명해주세요.
   - 함수형 컴포넌트의 생명주기
   - useEffect()와 useLayoutEffect()의 차이점에 대해 말씀해주세요.
+- [React의 렌더링 성능 향상을 위해 어떻게 해야 하나요?](./React/React-렌더링성능-향상법.md)
+  - React.memo(), useMemo()
+  - useCallback()
 
 ## 참조
 
