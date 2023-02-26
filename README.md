@@ -1,5 +1,13 @@
 # Interview Questions - frontend dev
 
+## JS
+
+- [실행 컨텍스트 관련 질문](./JS/실행-컨텍스트와-클로저.md)
+  - 스코프
+  - 실행 컨텍스트 (Execution Context)
+  - 렉시컬 환경 (Lexical Environment)
+  - 클로저 (Closure)
+
 ## React
 
 - [React를 사용하는 이유에 대해 설명해주세요.](./React/React를-사용하는-이유.md)
