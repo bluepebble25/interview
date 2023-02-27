@@ -7,6 +7,10 @@
   - 실행 컨텍스트 (Execution Context)
   - 렉시컬 환경 (Lexical Environment)
   - 클로저 (Closure)
+- [var, let, const 차이 비교](./JS/var-let-const-차이.md)
+  - var, let, const의 차이를 설명해주세요.
+  - 호이스팅
+  - TDZ (Temporal Dead Zone)
 
 ## React
 
