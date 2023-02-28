@@ -11,6 +11,11 @@
   - var, let, const의 차이를 설명해주세요.
   - 호이스팅
   - TDZ (Temporal Dead Zone)
+- [이벤트 버블링과 캡처링](./JS/이벤트-버블링과-캡처링.md)
+  - 이벤트 버블링과 캡처링에 대해 설명해주세요.
+  - 이벤트 버블링과 캡처링 사용 예시에 대해 설명해주세요. - 이벤트 위임
+  - event.target과 event.currentTarget의 차이점
+  - JS 이벤트 흐름 - 캡처링과 버블링이 둘 다 등록되어 있다면?
 
 ## React
 
