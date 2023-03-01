@@ -19,6 +19,7 @@
 - [this](./JS/this.md)
   - this
   - 화살표 함수
+- [prototype](./JS/prototype.md)
 
 ## React
 
