@@ -20,6 +20,12 @@
   - this
   - 화살표 함수
 - [prototype](./JS/prototype.md)
+- [promise와 callback](./JS/callback과-promise.md)
+  - callback / Promise / async,await
+  - Promise와 callback의 차이점을 설명해주세요.
+  - 콜백 지옥을 해결하는 방법을 말씀해주세요.
+  - async, await 사용 방법을 설명해주세요.
+  - Promise를 사용한 비동기 통신과 async, await를 사용한 비동기통신의 차이를 설명해주세요.
 
 ## React
 
