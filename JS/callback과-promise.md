@@ -7,6 +7,33 @@
 3. async, await 사용 방법을 설명해주세요.
 4. Promise를 사용한 비동기 통신과 async, await를 사용한 비동기통신의 차이를 설명해주세요.
 
+### 1. Promise와 callback의 차이점을 설명해주세요.
+
+callback을 사용하면 결과값을 처리하기 위해서는 콜백함수 안에서만 처리할 수 있기 때문에 계속 콜백함수의 깊이가 깊어진다는 단점이 있습니다. 하지만 Promise를 사용하면 비동기처리의 결과값을 프로미스 바깥에서 `then()`으로 받아서 처리할 수 있기 때문에 가독성이 좋고 편리하다는 장점이 있습니다.
+
+### 2. 콜백 지옥을 해결하는 방법을 말씀해주세요.
+
+- Promise나 async/await를 사용하면 됩니다.
+- Promise를 사용하면 콜백의 결과를 바깥에서 `.then()`으로 이을 수 있기 때문에 가독성이 좋아지고, async/await를 사용하면 마치 동기함수처럼 비동기함수의 처리를 기다려주고 결과를 반환하기 때문에 콜백함수를 작성할 필요가 없습니다.
+
+### 3. async, await 사용 방법을 설명해주세요.
+
+- 비동기처리를 하는 함수 앞에 await를 붙이면 마치 동기함수처럼 그 함수의 처리를 기다려줍니다.
+- await는 async 선언을 한 함수 안에서만 사용할 수 있으므로 await를 둘러싼 함수에게도 앞에 async를 붙여줍니다.
+- 만약 전역스코프에서 await를 사용하려고 한다면 즉시실행 함수의 형태로 async 함수로 둘러싸야 사용할 수 있습니다.
+  ```js
+  (async () => {
+    ... 코드1
+    await promise();
+    ... 코드2
+  })();
+  ```
+
+### Promise를 사용한 비동기 통신과 async, await를 사용한 비동기통신의 차이를 설명해주세요.
+
+- Promise와 async/await의 차이점은 첫번째로 에러 핸들링에 있습니다. Promise는 `.catch()` 메소드로 에러처리를 할 수 있지만 async/await는 에러처리를 할 수 있는 기능이 없어서 try~catch문을 사용해야 합니다.
+- 두 번째는 코드 가독성입니다. Promise도 콜백함수보다는 가독성이 낫지만 그 이후에 해야 할 일이 계속 이어지면 then이 계속 늘어설 수 있습니다. 하지만 async/await는 동기 함수처럼 코드를 작성할 수 있기 때문에 가독성이 좀 더 좋습니다.
+
 ---
 
 ## Callback 함수란?
@@ -20,7 +47,7 @@
 이러면 가독성이 매우 떨어진다.
 이것을 해결하기 위해
 
-1. 중첩된 구조를 따로 함수로 분리해서 서로를 호출하도록 하거나
+1. 중첩된 구조를 따로 함수로 분리해서 서로를 호출하도록 하거나 (근데 별로 추천 X)
 2. Promise나 async/await를 사용한다.
 
 ## Promise 란?
@@ -84,3 +111,4 @@ result도
 - 캡틴판교 - 자바스크립트 Promise 쉽게 이해하기 | https://joshua1988.github.io/web-development/javascript/promise-for-beginners/
 - 동기방식 vs 비동기방식, 콜백함수와 Promise 까지 한번에 훑어보기! | https://mesonia.tistory.com/139
 - 벨로퍼트와 함께하는 모던 자바스크립트 > 3장. 자바스크립트에서 비동기 처리 다루기 > 01. Promise | https://learnjs.vlpt.us/async/01-promise.html (Promise 함수 작성하는 법이 기술되어 있음)
+- Promise와 async/await 차이점 | https://velog.io/@pilyeooong/Promise%EC%99%80-asyncawait-%EC%B0%A8%EC%9D%B4%EC%A0%90
