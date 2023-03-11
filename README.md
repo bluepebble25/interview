@@ -57,6 +57,11 @@
 
 - [브라우저 렌더링 과정을 설명해주세요.](./Frontend/브라우저-렌더링-과정.md)
 
+# HTML/CSS
+
+- [CSS 애니메이션과 JS 애니메이션의 차이점](./HTML&CSS/CSS-애니메이션과-JS애니메이션의-차이점.md)
+  - RequestAnimationFrame()
+
 ## CS
 
 - [OOP의 특징](./CS/OOP.md)
