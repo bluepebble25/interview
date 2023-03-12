@@ -56,6 +56,7 @@
 ## Frontend
 
 - [브라우저 렌더링 과정을 설명해주세요.](./Frontend/브라우저-렌더링-과정.md)
+- [CORS는 무엇인지, CORS를 처리해본 경험을 말씀해주세요.](./Frontend/CORS.md)
 
 # HTML/CSS
 
